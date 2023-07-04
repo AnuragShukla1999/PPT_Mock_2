@@ -1,0 +1,16 @@
+Execution context refers to the environment in which JavaScript code is executed. It contains all the variables, functions, and objects that the code can access at a given moment. It helps keep track of the code's execution and provides a way to handle variables, function scopes, and the call stack. The diagram below illustrates the concept of execution context:
+
+
+----------------------------------------
+|                                      |
+|         Execution Context Stack       |
+|                                      |
+|--------------------------------------|
+|            Execution Context          |
+|--------------------------------------|
+|   Variable Environment   |  Scope     |
+|   (Variables and          |  Chain     |
+|    Function Declarations) |            |
+|--------------------------|------------|
+
+

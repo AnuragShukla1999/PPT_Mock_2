@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.pack {
+    background-color: #d9ff01;
+}
+
+.pack1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    background-color: #fff;
+}
+
+.smallPack {
+    background-color: #d11bf9;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.box {
+    background-color: #1fff01;
+}
+
+.one {
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_1280.jpg');
+    background-size: cover;
+}
+
+.two {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg');
+    background-size: cover;
+}
+
+.three {
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/24/12/43/schrecksee-2534484_1280.jpg');
+    background-size: cover;
+}
+
+.four {
+    background-image: url('https://cdn.pixabay.com/photo/2015/05/28/22/29/bicycle-788733_1280.jpg');
+    background-size: cover;
+}
+
+.five {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/14/05/29/children-1822704_1280.jpg');
+    background-size: cover;
+}
+
+.six {
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/18/18/01/little-girl-2516578_1280.jpg');
+    background-size: cover;
+}
